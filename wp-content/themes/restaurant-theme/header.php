@@ -33,26 +33,30 @@ $container = get_theme_mod('understrap_container_type');
 		<div id="wrapper-navbar">
 			<div class="top-header-holder">
 				<div class="container">
-					<div class="row">
+					<div class="row align-items-end">
 						<div class="col-4">
-							<div class="logo-holder">
+							<a href="/" class="logo-holder">
 								<img src="<?php echo get_template_directory_uri();?>/img/logo.png" alt="logo" width="100%">
 								<!-- <h3>BeachFront Resturant</h3> -->
-							</div>
+							</a>
 							</div>
 							<div class="col-6">
 								<div class="reservation-holder">
 									<div class="contact-holder">
-										<div class="phone">+234 808 338 3108</div>
-										<div class="address">Lagos, Nigeria</div>
+										<a href="#" class="phone">
+											<i class="fa fa-phone"></i>
+										+234 808 338 3108</a>
+										<a href="#" class="address">
+											<i class="fa fa-map"></i>
+										Lagos, Nigeria</a>
 									</div>
-									<div class="reservation-btn">Make a Reservation</div>
+									<a href="#" class="reservation-btn">Make a Reservation</a>
 								</div>
 							</div>
 							<div class="col">
 								<div class="socia-media-holder">
-									<div class="i fa fa-facebook"></div>
-									<div class="i fa fa-instagram"></div>
+									<a href="#" class="i fa fa-facebook"></a>
+									<a href="#" class="i fa fa-instagram"></a>
 								</div>
 							</div>
 
